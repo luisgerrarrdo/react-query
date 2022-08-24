@@ -4,6 +4,7 @@ import { Container, Stack, Title } from "@mantine/core";
 import client from "./client";
 import Login from "./Login";
 import Stopwatch from "./Stopwatch";
+import Logger from "./Logger";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
 
         <Title>Stopwatch</Title>
         <Stopwatch />
+
+        <Title>Logger</Title>
+        <Logger />
       </Stack>
     </Container>
   );
